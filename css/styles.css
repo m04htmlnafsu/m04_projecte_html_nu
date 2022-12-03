@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;    
+}
+
+.banner-image {
+  background-image: no-repeat;
+  background-size: cover;
+  animation: change 9s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%,100%{
+    background-image: url(/img/ney.jpg);
+  }
+
+  25%{
+    background-image: url(/img/estadio.jpg);
+  }
+
+  35%{
+    background-image: url(/img/dar3.jpg);
+  }
+}
+
+.text-white{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-down {
+  height: 60px;
+  width: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+.carousel-item{
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-item img{
+  filter: brightness(35%);
+}
+
+.carousel-caption{
+  padding-bottom:0;
+  padding-top:0;
+  bottom:0;
+  top: 55%;
+  transform:translateY(-50%);
+}
+
+.carousel-caption h5{
+  font-size: 70px;
+}
+
+.carousel-caption p{
+  font-size: 30px;
+}
+
+.bg-info.bg-info { 
+  background-color: #3c40b0 !important; 
+}
+
+

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE futbol SYSTEM "ProjUF1-P1-nu.dtd">
+<futbol>
+    <equipos>
+
+        <equipo id="PSG" jugadores="km">
+            <nombre>Paris Saint-Germain</nombre>
+            <estadio>Parque de los Principes</estadio>
+            <logo src="https://logos-world.net/wp-content/uploads/2020/06/PSG-Logo.png"></logo>
+            <champions_copa>0</champions_copa>
+            <entrenador>Christophe Galtier</entrenador>
+            <presidente>Nasser Al-Khelaifi</presidente>
+        </equipo>
+
+        <equipo id="MAD" jugadores="kb vj">
+            <nombre>Real madrid</nombre>
+            <estadio>Santiago bernaveu</estadio>
+            <logo src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"></logo>
+            <champions_copa>14</champions_copa>
+            <entrenador>Carlo Ancelotti</entrenador>
+            <presidente>Florentino Perez</presidente>
+        </equipo>
+
+        <equipo id="AT" jugadores="ag">
+            <nombre>Atletico de madrid</nombre>
+            <estadio>Estadio Cívitas Metropolitano</estadio>
+            <logo src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png"></logo>
+            <champions_copa>0</champions_copa>
+            <entrenador>Diego simeone</entrenador>
+            <presidente>Enrique Cerezo Torres</presidente>
+        </equipo>
+
+        <equipo id="Liv" jugadores="ms">
+            <nombre>Liverpool</nombre>
+            <estadio>Anfield</estadio>
+            <logo src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"></logo>
+            <champions_copa>6</champions_copa>
+            <entrenador>Jurgen Klopp</entrenador>
+            <presidente>Tom Werner</presidente>
+        </equipo>
+
+        <equipo id="BCN" jugadores="pg gv">
+            <nombre>Barcelona</nombre>
+            <estadio>Camp nou</estadio>
+            <logo src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"></logo>
+            <champions_copa>5</champions_copa>
+            <entrenador>xavi hernandez</entrenador>
+            <presidente>Joan Laporta</presidente>
+        </equipo>
+
+
+        <equipo id="MAN" jugadores="cr">
+            <nombre>manchester united</nombre>
+            <estadio>Old Trafford</estadio>
+            <logo src="https://upload.wikimedia.org/wikipedia/an/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png"></logo>
+            <champions_copa>3</champions_copa>
+            <entrenador>Erik ten Hag</entrenador>
+            <presidente>Joel Glazer</presidente>
+        </equipo>
+
+    </equipos>
+
+    <jugadores>
+        <jugador equipo="BCN" id="pg">
+            <nombre>Pedro</nombre>
+            <apellido>González</apellido>
+            <altura>1.74m</altura>
+            <posicion>Centrocampista</posicion>
+            <peso>60kg</peso>
+            <foto src="https://assets.laliga.com/squad/2022/t178/p490541/2048x2225/p490541_t178_2022_0_001_000.png"></foto>
+            <edad>18</edad>
+        </jugador>
+
+        <jugador equipo="BCN" id="gv">
+            <nombre>Páez</nombre>
+            <apellido>Gavira</apellido>
+            <altura>1.73m</altura>
+            <posicion>delantero</posicion>
+            <peso>60kg</peso>
+            <foto src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4169,h_2345,x_0,y_137/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_es_international_web/01gg5ay4528vevxn6b55.jpg"></foto>
+            <edad>18</edad>
+        </jugador>
+
+        <jugador equipo="Liv" id="ms">
+            <nombre>Mohammed</nombre>
+            <apellido>salah</apellido>
+            <altura>1.75m</altura>
+            <posicion>Delantero</posicion>
+            <peso>73kg</peso>
+            <foto src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg"></foto>
+            <edad>30</edad>
+        </jugador>
+
+        <jugador equipo="AT" id="ag">
+            <nombre>Antonie</nombre>
+            <apellido>Griezman</apellido>
+            <altura>1.76m</altura>
+            <posicion>Delantero</posicion>
+            <peso>73kg</peso>
+            <foto src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Antoine_Griezmann_2018.jpg"></foto>
+            <edad>31</edad>
+        </jugador>
+
+        <jugador equipo="MAD" id="kb">
+            <nombre>Karim</nombre>
+            <apellido>Benzema</apellido>
+            <altura>1.85m</altura>
+            <posicion>Delantero</posicion>
+            <peso>81kg</peso>
+            <foto src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg/1200px-Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg"></foto>
+            <edad>34</edad>
+        </jugador>
+
+        <jugador equipo="MAD" id="vj">
+            <nombre>vinicius</nombre>
+            <apellido>junior</apellido>
+            <altura>1.80m</altura>
+            <posicion>delatero</posicion>
+            <peso>70</peso>
+            <foto src="https://cadenaser.com/resizer/f4nxA1QLwKYQS6O6rZCMhv3Szww=/736x552/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/I3RRBR2Q4FEEPGAJDQKPAGVUPM.jpg"></foto>
+            <edad>23</edad>
+        </jugador>
+
+        <jugador equipo="PSG" id="km">
+            <nombre>Kylian</nombre>
+            <apellido>Mbappe</apellido>
+            <altura>1.78</altura>
+            <posicion>Delantero</posicion>
+            <peso>73kg</peso>
+            <foto src="https://s.hs-data.com/bilder/spieler/gross/284095.jpg"></foto>
+            <edad>24</edad>
+        </jugador>
+
+        <jugador id="cr" equipo="MAN">
+            <nombre>cristiano</nombre>
+            <apellido>ronaldo</apellido>
+            <altura>1.87m</altura>
+            <posicion>Delantero</posicion>
+            <peso>85kg</peso>
+            <foto src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/245px-Cristiano_Ronaldo_2018.jpg"></foto>
+            <edad>37</edad>
+        </jugador>
+
+    </jugadores>
+</futbol>

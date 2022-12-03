@@ -1,0 +1,27 @@
+        <!ELEMENT futbol (equipos,jugadores)>
+        <!ELEMENT equipos (equipo+)>
+        <!ELEMENT equipo (nombre,estadio,logo,champions_copa,entrenador,presidente)>
+        <!ATTLIST equipo
+                id ID #REQUIRED
+                jugadores IDREFS #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT estadio (#PCDATA)>
+        <!ELEMENT logo (#PCDATA)>
+        <!ATTLIST logo
+                src CDATA #REQUIRED>
+        <!ELEMENT champions_copa (#PCDATA)>
+        <!ELEMENT entrenador (#PCDATA)>
+        <!ELEMENT presidente (#PCDATA)>
+        <!ELEMENT jugadores (jugador+)>
+        <!ELEMENT jugador (nombre,apellido,altura,posicion,peso,foto,edad)>
+        <!ATTLIST jugador
+                id ID #REQUIRED
+                equipo IDREF #REQUIRED>
+        <!ELEMENT apellido (#PCDATA)>
+        <!ELEMENT altura (#PCDATA)>
+        <!ELEMENT posicion (#PCDATA)>
+        <!ELEMENT peso (#PCDATA)>
+        <!ELEMENT foto (#PCDATA)>
+        <!ATTLIST foto
+                src CDATA #REQUIRED>
+        <!ELEMENT edad (#PCDATA)>

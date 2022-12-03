@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+.bg-info.bg-info { 
+    background-color: #3c40b0 !important; 
+}
+
+#fotoequipo{
+    height: 40%;
+    padding: 15px;
+}
+
+.bg-info.bg-info { 
+    background-color: #3c40b0 !important; 
+}

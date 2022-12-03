@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+.bg-info.bg-info { 
+    background-color: #3c40b0 !important; 
+}
+
+#fotojugador{
+    height: 50%;
+    padding: 15px;
+}
