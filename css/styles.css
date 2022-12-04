@@ -5,12 +5,14 @@
 }
 
 .banner-image {
+  background-image: url(/img/dar3.jpg);
   background-image: no-repeat;
   background-size: cover;
   animation: change 9s infinite ease-in-out;
 }
 
-@keyframes change{
+
+/**@keyframes change{
   0%,100%{
     background-image: url(/img/ney.jpg);
   }
@@ -22,12 +24,22 @@
   35%{
     background-image: url(/img/dar3.jpg);
   }
-}
+}**/
 
 .text-white{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 40px;
+}
+
+.banner-image p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.carousel-item img{
+  width: 200vh;
 }
 
 html {
@@ -81,6 +93,11 @@ html {
     top: 90%;
     opacity: 0;
   }
+}
+
+.banner-image span{
+  color: white;
+  font-size: 60px;
 }
 
 .carousel-item{
